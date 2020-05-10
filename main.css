@@ -78,44 +78,24 @@ ul {
 }
 /* Blog-main styling finished*/
 
-/* Article-slack styling*/
-.article-slack{
-    border-style:hidden;
-    border-width: 3px;
-    border-radius: 8px;
-    border-color:#101111;
-    padding: 20px;
-    margin: 5px;
-    background-color: #fde1fd;
-    box-shadow: 5px 10px 8px #888888;
-}
-/* Article-slack styling finished*/
+/* Articles-section styling*/
 
-/* Article-zoom styling*/
-.article-zoom{
-    border-style:hidden;
-    border-width: 3px;
-    border-radius: 8px;
-    border-color:#101111;
-    padding: 20px;
-    margin: 5px;
-    background-color: #fde1fd;
-    box-shadow: 5px 10px 8px #888888;
+.articles-section{
+  display: flex;
+  justify-content: center;
 }
-/* Article-zoom styling finished*/
-
-/* Article-trello styling*/
-.article-trello{
-    border-style:hidden;
-    border-width: 3px;
-    border-radius: 8px;
-    border-color:#101111;
-    padding: 20px;
-    margin: 5px;
-    background-color: #fde1fd;
-    box-shadow: 5px 10px 8px #888888;
+.articles{
+  width:400px;
+  border-style:hidden;
+  border-width: 5px;
+  border-radius: 8px;
+  border-color:#101111;
+  padding: 20px;
+  margin: 5px;
+  background-color: #fde1fd;
+  box-shadow: 5px 15px 15px #464545;
 }
-/* Article-trello styling finished*/
+/* Articles-section styling end*/
 h1{
     text-decoration: underline;
     padding: 20px;
@@ -168,3 +148,4 @@ p{
   text-align: right;
 }
 /* Reference P styling end*/
+

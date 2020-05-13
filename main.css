@@ -1,13 +1,16 @@
 /* This is main styling of the page */
 body{
-    background-color: white;
-    font-size: large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: white;
+  font-size: large;
+  font-family: 'Times New Roman';
 }
+p{
+  font-size: 30px;
+} 
 /* This is main styling end */
 
 /*Add-head-logo styling*/
-.add-head-logo{
+.nav-bar-top{
   border-style:none;
   border-radius: 5px;
   border-color: #bab5d4;
@@ -31,49 +34,50 @@ body{
 /*Navigation bar styling*/
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #505045;
-    border-radius: 5px;
-    border-style:hidden;
-    box-shadow: 15px 15px 15px #888888;
-    
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #505045;
+  border-radius: 5px;
+  border-style:hidden;
+  box-shadow: 15px 15px 15px #888888;
+  text-decoration: none;
   
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    font-size: 30px;
-    text-shadow: 5px 5px 10px blue"
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #101111;
-  }
-  
-  .active {
-    background-color: #925129;
-  }
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 30px;
+  text-shadow: 5px 5px 10px blue"
+}
+
+li a:hover:not(.active) {
+  background-color: #101111;
+}
+
+.active {
+  background-color: #925129;
+}
 /*Navigation bar end*/
 
 /* Blog-main styling*/
 .blog-main{
-    border-style:hidden;
-    border-radius: 8px;
-    border-width: 1px;
-    border-color:#101111;
-    padding: 20px;
-    margin: 5px;
-    background-color: #f5fdce;
-    box-shadow: 5px 10px 10px #888888;
+  border-style:hidden;
+  border-radius: 8px;
+  border-width: 3px;
+  border-color:#101111;
+  padding: 20px;
+  margin: 5px;
+  background-color: #f5fdce;
+  box-shadow: 5px 10px 10px #888888;
 }
 
 h1{
@@ -82,14 +86,10 @@ h1{
   margin: 5px;    
   text-align: center;
 }
-p{
-  font-size: 30px;
-}
-
 /* Blog-main styling finished*/
 
 /* Reference P styling*/
-.blog-main p:nth-child(3){
+.blog-main p:last-of-type{
   font-size: 15px;
   font-family: sans-serif;
   font-weight: bolder;
@@ -99,12 +99,13 @@ p{
 /* Reference P styling end*/
 
 /* Articles-section styling*/
-.articles-section{
-  display: flex;
+section{
+  display: block;
   justify-content: center;
-}
-.articles{
-  width:400px;
+} 
+
+article{
+  
   border-style:hidden;
   border-width: 5px;
   border-radius: 8px;
@@ -113,41 +114,56 @@ p{
   margin: 5px;
   background-color: #fde1fd;
   box-shadow: 5px 15px 15px #464545;
+  
+}
+article p:last-of-type{
+
+  font-size: 20px;
+  font-family: serif;
+  border-style:hidden;
+  border-width: 5px;
+  border-radius: 8px;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-color:#101111;
+  background-color: #f5eff5;
+  box-shadow: 5px 15px 15px #464545;
+  text-align: center;
 }
 /* Articles-section styling end*/
 
 /* Footer styling*/
-.index-footer{
-    border-style:hidden;
-    border-width: 3px;
-    border-radius: 8px;
-    border-color:#101111;
-    padding: 20px;
-    margin: 5px;
-    background-color: #a2a4ac;
-    box-shadow: 5px 10px 8px #888888;
+footer{
+  border-style:hidden;
+  border-width: 3px;
+  border-radius: 8px;
+  border-color:#101111;
+  padding: 20px;
+  margin: 5px;
+  background-color: #a2a4ac;
+  box-shadow: 5px 10px 8px #888888;
+  font-family: 'Lucida Sans';
 }
 
-.index-footer p:last-of-type{
-    text-align: center;
-    font-size: 30px;
-    font-weight: bolder;
+footer p:last-of-type{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  font-style: italic;
 }
-.footer-info{
-
+table{
   font-size: 30px;
   text-decoration: underline;
   border-spacing: 2git0px;
   justify-content: space-around;
   width: 100%;
 }
-.footer-info a{
+table a{
   color:black;
 }
-.footer-info a:hover{
+table a:hover{
   color:blue;
 }
 /* Footer styling*/
-
-
-
